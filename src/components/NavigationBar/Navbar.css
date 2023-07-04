@@ -1,0 +1,46 @@
+.NavBar{
+    display: flex;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.NavBar-logo{
+    width: 110.949px;
+height: 60.356px;
+flex-shrink: 0;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 379px;
+}
+.NavBar-nav ul li{
+list-style: none;
+text-decoration: none;
+color: black;
+}
+.NavBar-nav a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    }
+.NavBar-nav ul{
+    display: flex;
+    align-items: flex-start;
+    gap: 35.504px;
+}
+.NavBar-nav-button{
+    display: flex;
+padding: 8.876px;
+align-items: flex-start;
+gap: 8.876px;
+}
+.NavBar-SignIn{
+    color: #000;
+text-align: center;
+font-size: 17.752px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+line-height: 17.752px;
+letter-spacing: 0.089px;
+text-decoration: none ;
+}
+

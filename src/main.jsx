@@ -8,7 +8,7 @@ import AboutUs from "./pages/AboutUs/AboutUs.jsx";
 import ContactUs from "./pages/ContactUs/ContactUs.jsx";
 import SignIn from "./pages/SignIn/SignIn.jsx";
 import PostaJob from "./pages/PostaJob/PostaJob.jsx";
-
+import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -19,27 +19,27 @@ const router = createBrowserRouter([
     children: [
       {
         path: "browsejobs",
-        element: <BrowseJobs/>,
+        element: <BrowseJobs />,
       },
       {
         path: "blog",
-        element: <Blog/>,
+        element: <Blog />,
       },
       {
         path: "aboutus",
-        element: <AboutUs/>,
+        element: <AboutUs />,
       },
       {
         path: "contactus",
-        element: <ContactUs/>,
+        element: <ContactUs />,
       },
       {
         path: "signin",
-        element: <SignIn/>,
+        element: <SignIn />,
       },
       {
         path: "postajob",
-        element: <PostaJob/>,
+        element: <PostaJob />,
       },
     ],
   },

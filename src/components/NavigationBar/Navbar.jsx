@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
      <div className="NavBar">
         <div className='NavBar-logo'>
-          <img src="./rekruit-logo.jpeg"/>
+          <img src= "./rekruit-logo.jpeg"/>
         </div>
         <div>
         <nav className='NavBar-nav'>
@@ -23,11 +23,12 @@ const Navbar = () => {
           <li>
             <Link to="/ContactUs">Contact us</Link>
           </li>
+          
         </ul>
       </nav>
         </div>
         <div className='NavBar-nav-button'>
-          <button className="NavBar-SignIn"><Link to="/sign in">Sign in</Link></button>
+          <button className="NavBar-SignIn"><Link to="/signIn">Sign in</Link></button>
           <button className="NavBar-PostaJob"><Link to="/PostaJob">Post a job</Link></button>
         </div>
         </div>

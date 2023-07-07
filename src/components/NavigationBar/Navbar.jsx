@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
      <div className="NavBar">
         <div className='NavBar-logo'>
-          <img src="./rekruit-logo.jpeg"/>
+          <img src= "./rekruit-logo.jpeg"/>
         </div>
         <div>
         <nav className='NavBar-nav'>
@@ -23,6 +23,7 @@ const Navbar = () => {
           <li>
             <Link to="/ContactUs">Contact us</Link>
           </li>
+          
         </ul>
       </nav>
         </div>

@@ -1,9 +1,7 @@
-import React from 'react';
-import style from './Hero.module.css';
+import React from "react";
+
 const Hero = () => {
-  return (
-    <div className={style.theboy}>Hero</div>
-  )
-}
+  return <div>Hero</div>;
+};
 
 export default Hero;

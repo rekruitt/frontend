@@ -1,0 +1,70 @@
+.footer{
+    display: flex;
+padding: 114px 34px 24px 34px;
+flex-direction: column;
+align-items: center;
+gap: 40px;
+align-self: stretch;
+background: linear-gradient(60deg, #AADAF8 0%, #0374E4 100%);
+}
+.footer2{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.footer-logo{
+    padding-right: 150px;
+}
+.footer-rekruit-img{
+    width: 125px;
+height: 68px;
+}
+.footer-icons{
+display: flex;
+align-items: flex-start;
+gap: 20px;
+border: none;
+}
+.footer-header{
+    color: #FFF;
+font-size: 29.124px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-bottom: 20px;
+}
+.footer-list{
+    list-style: none;
+    gap: 10px;
+    color: #FFFFFF;
+    color: #FFF;
+font-size: 18px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer-quicklink{
+    padding-right: 120px;
+}
+.footer-support{
+    padding-right: 120px;
+}
+.footer-hr{
+  color:rgba(255, 255, 255, 0.70);;
+width: 1360px;
+height: 1px;
+}
+.footer-copyright{
+    color: #FFF;
+font-size: 18px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+}
+
+
+

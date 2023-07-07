@@ -8,6 +8,11 @@ import AboutUs from "./pages/AboutUs/AboutUs.jsx";
 import ContactUs from "./pages/ContactUs/ContactUs.jsx";
 import SignIn from "./pages/SignIn/SignIn.jsx";
 import PostaJob from "./pages/PostaJob/PostaJob.jsx";
+<<<<<<< HEAD
+=======
+import Hero from "./pages/Hero/Hero.jsx";
+
+>>>>>>> main
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -18,6 +23,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
+<<<<<<< HEAD
         path: "browsejobs",
         element: <BrowseJobs />,
       },
@@ -39,6 +45,35 @@ const router = createBrowserRouter([
       },
       {
         path: "postajob",
+=======
+        path:'/',
+        element:<Hero/>,
+      },
+      {
+        path: "/browsejobs",
+        element: <BrowseJobs />,
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: "/blog",
+        element: <Blog />,
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: "/aboutus",
+        element: <AboutUs />,
+      },
+      {
+        path: "/contactus",
+        element: <ContactUs />,
+      },
+      {
+        path: "/signin",
+        element: <SignIn />,
+      },
+      {
+        path: "/postajob",
+>>>>>>> main
         element: <PostaJob />,
       },
     ],

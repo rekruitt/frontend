@@ -1,0 +1,67 @@
+.contactus {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  padding-inline: 3rem;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 9rem;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+.contactus_button {
+  width: 100%;
+  border-radius: 8px;
+  border-style: none;
+  background-color: #0374E4;
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  line-height: 20px;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.contactus_flexleft h2 {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .contactus {
+    flex-direction: column;
+    align-items: center;
+    gap:4rem;
+  }
+}
+input {
+  border-radius: 9px;
+  height: 40px;
+  line-height: 20px;
+  padding: 10px 16px;
+  border-width: 1px;
+}
+
+textarea {
+  border-radius: 9px;
+  line-height: 20px;
+  padding: 10px 16px;
+  border-width: 1px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 23rem;
+}
+
+label {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contactus_button {
+  margin-top: 2rem;
+}

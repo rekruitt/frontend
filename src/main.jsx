@@ -20,8 +20,8 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path:'/',
-        element:<Hero/>,
+        path: "/",
+        element: <Hero />,
       },
       {
         path: "/browsejobs",
@@ -43,7 +43,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/signin",
-        element: <SignIn />,
+        element: <SignIn/>,
       },
       {
         path: "/postajob",

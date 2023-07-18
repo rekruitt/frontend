@@ -1,0 +1,22 @@
+.blog_input{
+    border-radius: 9px;
+    height: 40px;
+    line-height: 20px;
+    padding: 10px 16px;
+    border-width: 1px;
+}
+
+.blog_button {
+    width: 8rem;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #0374E4;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    line-height: 20px;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }

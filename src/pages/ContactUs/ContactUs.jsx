@@ -16,15 +16,23 @@ const ContactUs = () => {
       <div className="contactus_flexright">
         <form>
           <label>Email</label>
-          <input type="text" name="Enter your email address" />
+          <input type="text" placeholder="Enter your email address"  />
           <label>Phone Number</label>
-          <input type="text" name="Enter your Phone Number" />
-          <label>Email</label>
-          <textarea />
+          <input type="text" placeholder="Enter your Phone Number" />
+          <label>message</label>
+          <textarea placeholder="Enter your message"/>
         </form>
+        <button class="contactus_button" role="button">Send</button>
       </div>
     </div>
   );
 };
 
 export default ContactUs;
+
+
+
+
+
+
+

@@ -1,53 +1,57 @@
 .NavBar {
   display: flex;
-width: 1440px;
-padding:5px 100px;
-align-items: flex-end;
-background: #FFF;
-box-shadow: 3px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+.wrapper {
+  width: 100%;
+  background: #fff;
+  box-shadow: 3px 0px 5px 0px rgba(0, 0, 0, 0.25);
 }
 .NavBar-logo {
   width: 110.949px;
   height: 60.356px;
-  flex-shrink: 0;
-  padding-right: 379px;
+  margin-right: auto;
 }
 .NavBar-nav ul {
-    display: flex;
-    align-items: flex-start;
-    gap: 35.504px;
-    margin-right: 88.76px;
-  }
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.NavBar_second {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
 .NavBar-nav ul li {
   list-style: none;
-font-size: 17.752px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 600;
-line-height: 39.054px;
+  font-size: 17.752px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 39.054px;
 }
 .NavBar-nav a {
   text-decoration: none;
   color: #000;
-  
 }
 
 .NavBar-nav-button {
   display: flex;
-  align-items: flex-start;
   padding: 8.876px;
   gap: 8.876px;
 }
-.NavBar-SignIn{
-    border-radius: 8.876px;
-border: 1px solid #0374E4;
-background-color: #FFF;
-padding: 8.876px;
+.NavBar-SignIn {
+  border-radius: 8.876px;
+  border: 1px solid #0374e4;
+  background-color: #fff;
+  padding: 8.876px;
 }
-.NavBar-SignIn a{
-    /*text-decoration: none;*/
-    color: #000;
-    text-align: center;
+.NavBar-SignIn a {
+  /*text-decoration: none;*/
+  color: #000;
+  text-align: center;
   font-size: 17.752px;
   font-family: Roboto;
   font-style: normal;
@@ -57,20 +61,21 @@ padding: 8.876px;
   padding: 8.9px;
 }
 .NavBar-PostaJob {
-border: none;
-    border-radius: 8.876px;
-    background: #0374E4;
-    padding: 8.9px;
+  border: none;
+  border-radius: 8.876px;
+  background: #0374e4;
+  padding: 8.9px;
 }
 .NavBar-PostaJob a {
-    text-decoration: none;
-    color: #FFF; 
-    text-align: center;
+  text-decoration: none;
+  color: #fff;
+  white-space: nowrap;
+  text-align: center;
   font-size: 17.752px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   line-height: 17.752px;
-  letter-spacing: 0.089px; 
+  letter-spacing: 0.089px;
   padding: 8.9px;
 }

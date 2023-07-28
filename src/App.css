@@ -10,7 +10,17 @@ a:visited {
   box-sizing: border-box;
 }
 
-body{
-    line-height: 1.2;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+
+
+body, html {
+  font-family: 'Roboto', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.2;
+  line-height: normal;
 }
+
+
 

@@ -29,11 +29,7 @@ footer {
 }
 .footer-header {
   color: #fff;
-  font-size: 29.124px;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
   padding-bottom: 20px;
 }
 .footer-list {
@@ -41,18 +37,8 @@ footer {
   gap: 10px;
   color: #ffffff;
   color: #fff;
-  font-size: 18px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
-/* .footer-quicklink {
-  padding-right: 120px;
-} */
-/* .footer-support {
-  padding-right: 120px;
-} */
+
 .footer-links{
     display: flex;
     gap:5rem;
@@ -64,8 +50,6 @@ footer {
 }
 .footer-copyright {
   color: #fff;
-  font-size: 18px;
   font-weight: 400;
-  line-height: normal;
   text-align: center;
 }

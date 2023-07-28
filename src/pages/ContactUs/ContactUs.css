@@ -17,7 +17,6 @@
   cursor: pointer;
   display: inline-block;
   height: 40px;
-  line-height: 20px;
   padding: 10px 16px;
   text-align: center;
   text-decoration: none;
@@ -36,13 +35,22 @@
     gap:4rem;
   }
 }
-input {
-  border-radius: 9px;
+.contactus_input {
+  border-radius: 10px;
   height: 40px;
   line-height: 20px;
   padding: 10px 16px;
   border-width: 1px;
 }
+
+.contactus_message{
+  border-radius: 10px;
+  height: 5rem;
+  line-height: 20px;
+  padding: 10px 16px;
+  border-width: 1px;
+}
+
 
 textarea {
   border-radius: 9px;

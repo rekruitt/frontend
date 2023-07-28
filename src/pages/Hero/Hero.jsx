@@ -7,9 +7,10 @@ const Hero = () => {
       <div
         className="Hero-section1"
         style={{
-          backgroundImage: "url(./Hero-backgroundimg.svg)",
+          backgroundImage: "url(./hero.jpeg)",
           backgroundRepeat: "no-repeat",
-          height: "600px",
+          backgroundSize: 'cover',
+          height: '600px'
         }}
       >
         <p className="Hero-part1">
@@ -57,7 +58,9 @@ const Hero = () => {
             do not have to spend hours reviewing <br></br>
             too many resumes.<br></br>
           </p>
-          <button className="Hero-section2-button">post a job</button>
+          <button className="Hero-section2-button">
+            <Link to="/PostaJob">Post a job</Link>
+          </button>
         </div>
       </div>
       <div className="Hero-section2">
@@ -72,10 +75,11 @@ const Hero = () => {
             job by creating a free account and filling out<br></br>
             your profile.
           </p>
-          <button className="Hero-section2-button">Get started</button>
+          <button className="Hero-section1-button">Get Started</button>
         </div>
         <div className="hero-overlap">
           <div className="hero-bg"></div>
+          <img className="hero-bg2" src="./heroimg2.svg"></img>
         </div>
       </div>
       {/* Latest blog posts */}

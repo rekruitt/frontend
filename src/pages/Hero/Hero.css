@@ -3,33 +3,33 @@
 }
 .Hero-part1 {
   padding-top: 180px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   color: #fff;
   font-family: Roboto;
-  font-size: 57px;
+  font-size: 45px;
   font-style: normal;
   font-weight: 600;
-  line-height: 64px;
 }
-.Hero-section1-button {
-  width: 141px;
-  height: 50px;
-  border: none;
-  border-radius: 8.876px;
-  background: #0374e4;
-  color: #fff;
-  font-size: 20px;
-  font-family: Roboto;
-}
-
 .hero-part2 {
   color: #fff;
   font-family: Roboto;
-  font-size: 32px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 300;
-  line-height: 40px;
-  padding-bottom: 33px;
+}
+.Hero-section1-button {
+  width: 8rem;
+  border-radius: 8px;
+  border-style: none;
+  background-color: #0374E4;
+  cursor: pointer;
+  height: 40px;
+  padding: 10px 16px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: Roboto;
+  margin-top: 30px;
 }
 
 .Hero-section2 {
@@ -79,34 +79,45 @@
   letter-spacing: 0.089px;
 }
 .hero-bg {
-  width: 570px;
-  height: 380px;
+  width: 550px;
+  height: 320px;
   border-radius: 20px;
   background: #0374e4;
   position: absolute;
 }
 
 .hero-bg2 {
-  width: 600px;
-  height: 400px;
+  width: 580px;
+  height: 350px;
   position: absolute;
   border-radius: 20px;
   position: absolute;
-  padding-left: 30px;
+  padding-left: 20px;
+  padding-top: 25px;
 }
 
 .hero-boxb {
-  width: 702.692px;
-  height: 428.057px;
+  width: 550px;
+  height: 320px;
   border-radius: 20px;
   background: #0374e4;
+  position: absolute;
 }
 .hero-bg2b {
-  width: 702.692px;
-  height: 428.057px;
+  /*width: 580px;
+  height: 350px;
+  position: absolute;
+  border-radius: 20px;
+  position: absolute;
+  padding-left: 20px;
+  padding-top: 25px;
+  */
+  width: 580px;
+  height: 350px;
   border-radius: 20px;
   margin-top: -500px;
   margin-left: 10px;
+  position: absolute;
 }
 .Hero-section2b {
   background-color: #fff;

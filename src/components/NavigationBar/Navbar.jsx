@@ -7,7 +7,11 @@ const Navbar = () => {
     <div className="wrapper">
       <div className="NavBar">
         <div className="NavBar-logo">
+<<<<<<< HEAD
           <img src="./rekruitlogo.png" />
+=======
+          <img src="./rekruit-logo.jpeg" width="80%" height="80%"/>
+>>>>>>> main
         </div>
         <div className="NavBar_second">
           <nav className="NavBar-nav">

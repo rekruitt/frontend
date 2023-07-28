@@ -6,6 +6,15 @@
     justify-content: center;
     margin-top: 4rem;
 }
+.aboutus_welcome{
+    margin-top: 1rem;
+}
+
+.aboutus_services{
+    display: flex;
+    margin-top: 2rem;
+    gap: 1rem;
+}
 
 
 .aboutussec2{
@@ -13,12 +22,13 @@
     gap: 8rem;
     flex-direction: row-reverse;
     justify-content: center;
-    margin-top: 10rem;
+    margin-top: 8rem;
 }
 
 .aboutimgcont1{
     position: relative;
     z-index: 10;
+    margin-top: 2rem;
 }
 
 .about_blue1{
@@ -31,6 +41,7 @@
 .aboutimgcont2{
     position: relative;
     z-index: 10;
+    margin-top: 5rem;
 }
 
 .about_blue2{
@@ -48,6 +59,7 @@
     justify-content: center;
     gap: 10rem;
     background-color: rgba(242, 250, 255, 1);
+    text-align: center;
 }
 
 .aboutus_mission{
@@ -76,17 +88,21 @@ display: flex;
 flex-direction: column;
 align-items: center;
 margin-top: 3rem;
-    margin-bottom: 3rem;
+margin-bottom: 3rem;
 
 }
 
 .aboutus_team{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    
-    
+    grid-column-gap: 70px;
+    grid-row-gap: 40px;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.aboutus_name{
+    font-weight: 600;
 }
 
 .aboutussec5{
@@ -97,10 +113,11 @@ margin-top: 3rem;
     background-color: rgba(242, 250, 255, 1);
     padding-top: 3rem;
     padding-bottom: 4rem;
+    text-align: center;
 }
 
 .aboutussec5_button{
-    width: 10rem;
+  width: 10rem;
   border-radius: 8px;
   border-style: none;
   background-color: #0374E4;
@@ -113,4 +130,5 @@ margin-top: 3rem;
   text-decoration: none;
   color: white;
   margin-top: 1rem;
+  font-weight: 600;
 }

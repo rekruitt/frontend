@@ -9,6 +9,8 @@ import ContactUs from "./pages/ContactUs/ContactUs.jsx";
 import SignIn from "./pages/SignIn/SignIn.jsx";
 import PostaJob from "./pages/PostaJob/PostaJob.jsx";
 import Hero from "./pages/Hero/Hero.jsx";
+import  store  from "./app/store";
+import { Provider } from "react-redux";
 
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -42,19 +44,21 @@ const router = createBrowserRouter([
         element: <ContactUs />,
       },
       {
-        path: "/signin",
-        element: <SignIn/>,
-      },
-      {
         path: "/postajob",
         element: <PostaJob />,
       },
     ],
   },
+  {
+    path: "/signin",
+    element: <SignIn />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <Provider store={store}>
+      <RouterProvider router={router} />
+    </Provider>
   </React.StrictMode>
 );

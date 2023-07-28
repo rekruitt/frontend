@@ -1,0 +1,15 @@
+import blogimg1 from "../../assets/images/blog/blogimg1.png";
+import blogimg2 from "../../assets/images/blog/blogimg2.png";
+import blogimg3 from "../../assets/images/blog/blogimg3.png";
+import blogimg4 from "../../assets/images/blog/blogimg4.png";
+import blogimg5 from "../../assets/images/blog/blogimg5.png";
+import blogimg6 from "../../assets/images/blog/blogimg6.png";
+
+export const blogdata =[
+    {photo: blogimg1, title: "Tips for acing your interview", content: "Research the Company: Before your interview, thoroughly research the company you're applying to. Familiarize yourself with their mission, values, products/services, recent news or events, and their industry. This knowledge will allow you to tailor your answers to align with the company's goals and demonstrate your interest and preparedness.", date:"june 24th, 2023" },
+    {photo: blogimg2, title: "Tips for acing your interview", content: "Research the Company: Before your interview, thoroughly research the company you're applying to. Familiarize yourself with their mission, values, products/services, recent news or events, and their industry. This knowledge will allow you to tailor your answers to align with the company's goals and demonstrate your interest and preparedness.", date:"june 24th, 2023"},
+    {photo: blogimg3, title: "Tips for acing your interview", content: "Research the Company: Before your interview, thoroughly research the company you're applying to. Familiarize yourself with their mission, values, products/services, recent news or events, and their industry. This knowledge will allow you to tailor your answers to align with the company's goals and demonstrate your interest and preparedness.", date:"june 24th, 2023"},
+    {photo: blogimg4, title: "Tips for acing your interview", content: "Research the Company: Before your interview, thoroughly research the company you're applying to. Familiarize yourself with their mission, values, products/services, recent news or events, and their industry. This knowledge will allow you to tailor your answers to align with the company's goals and demonstrate your interest and preparedness.", date:"june 24th, 2023"},
+    {photo: blogimg5, title: "Tips for acing your interview", content: "Research the Company: Before your interview, thoroughly research the company you're applying to. Familiarize yourself with their mission, values, products/services, recent news or events, and their industry. This knowledge will allow you to tailor your answers to align with the company's goals and demonstrate your interest and preparedness.", date:"june 24th, 2023"},
+    {photo: blogimg6, title: "Tips for acing your interview", content: "Research the Company: Before your interview, thoroughly research the company you're applying to. Familiarize yourself with their mission, values, products/services, recent news or events, and their industry. This knowledge will allow you to tailor your answers to align with the company's goals and demonstrate your interest and preparedness.", date:"june 24th, 2023"},
+]

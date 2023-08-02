@@ -62,7 +62,7 @@ import { useState } from 'react'
 import { toast } from 'react-toastify'
 import { useNavigate } from 'react-router-dom'
 import { useSelector, useDispatch } from 'react-redux'
-import { login } from '../../features/auth/authSlice'
+import { login } from '../../features/auth/asyncThunk'
 
 function Login() {
   const [form, setForm] = useState({

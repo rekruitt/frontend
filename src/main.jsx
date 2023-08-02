@@ -6,7 +6,8 @@ import BrowseJobs from "./pages/BrowseJobs/BrowseJobs.jsx";
 import Blog from "./pages/Blog/Blog.jsx";
 import AboutUs from "./pages/AboutUs/AboutUs.jsx";
 import ContactUs from "./pages/ContactUs/ContactUs.jsx";
-import SignIn from "./pages/SignIn/SignIn.jsx";
+import SignIn from "./pages/SignIn/Login.jsx";
+import SignUp from "./pages/SignUp/Register.jsx";
 import PostaJob from "./pages/PostaJob/PostaJob.jsx";
 import Hero from "./pages/Hero/Hero.jsx";
 import  store  from "./app/store";
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
   {
     path: "/signin",
     element: <SignIn />,
+  },
+  {
+    path: "/signup",
+    element: <SignUp/>,
   },
 ]);
 

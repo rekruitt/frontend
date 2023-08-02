@@ -5,9 +5,9 @@ const allReducers=combineReducers({
     auth:authReducer
 })
 
-const store = configureStore({
+ const store = configureStore({
   reducer:allReducers,
 })
 
 
-export default store
+export default store;

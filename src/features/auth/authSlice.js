@@ -1,86 +1,50 @@
-import { createSlice, createAsyncThunk, createAction } from '@reduxjs/toolkit'
-import authService from './authService'
-// NOTE: use a extractErrorMessage function to save some repetition
-import { extractErrorMessage } from '../../utils'
+import { createSlice,} from "@reduxjs/toolkit";
 
-// Get user from localstorage
-const user = JSON.parse(localStorage.getItem('user'))
-
-// NOTE: remove isSuccess from state as we can infer from
-// presence or absence of user
-// There is no need for a reset function as we can do this in our pending cases
-// No need for isError or message as we can catch the AsyncThunkAction rejection
-// in our component and we will have the error message there
+//this is the initial state
 const initialState = {
-  user: user ? user : null,
+  firstname: "",
+  lastname: "",
+  email: "",
+  password: "",
+  userToken: "",
   isLoading: false,
-}
+};
 
-// Register new user
-export const register = createAsyncThunk(
-  'auth/register',
-  async (user, thunkAPI) => {
-    try {
-      return await authService.register(user)
-    } catch (error) {
-      return thunkAPI.rejectWithValue(extractErrorMessage(error))
-    }
-  }
-)
-
-// Login user
-export const login = createAsyncThunk('auth/login', async (user, thunkAPI) => {
-  try {
-    return await authService.login(user)
-  } catch (error) {
-    return thunkAPI.rejectWithValue(extractErrorMessage(error))
-  }
-})
-
-// Logout user
-// NOTE: here we don't need a thunk as we are not doing anything async so we can
-// use a createAction instead
-export const logout = createAction('auth/logout', () => {
-  authService.logout()
-  // return an empty object as our payload as we don't need a payload but the
-  // prepare function requires a payload return
-  return {}
-})
-
-// NOTE: in cases of login or register pending or rejected then user will
-// already be null so no need to set to null in these cases
-
+//creating the auth slice
 export const authSlice = createSlice({
-  name: 'auth',
+  name: "auth",
   initialState,
   reducers: {
+    setFirstname: (state, { payload }) => {
+      state.firstname = payload;
+    },
+    setLastname: (state, { payload }) => {
+      state.lastname = payload;
+    },
+    setEmail: (state, { payload }) => {
+      state.email = payload;
+    },
+    setPassword: (state, { payload }) => {
+      state.password = payload;
+    },
+    //action to show if its loading
+    setLoading: (state, { payload }) => {
+      state.isLoading = payload;
+    },
+    //action to log out
     logout: (state) => {
-      state.user = null
+      state.firstname = "";
+      state.lastname = "";
+      state.email = "";
+      state.password = "";
+      state.userToken = "";
     },
   },
-  extraReducers: (builder) => {
-    builder
-      .addCase(register.pending, (state) => {
-        state.isLoading = true
-      })
-      .addCase(register.fulfilled, (state, action) => {
-        state.user = action.payload
-        state.isLoading = false
-      })
-      .addCase(register.rejected, (state) => {
-        state.isLoading = false
-      })
-      .addCase(login.pending, (state) => {
-        state.isLoading = false
-      })
-      .addCase(login.fulfilled, (state, action) => {
-        state.user = action.payload
-        state.isLoading = false
-      })
-      .addCase(login.rejected, (state) => {
-        state.isLoading = false
-      })
-  },
-})
+});
 
-export default authSlice.reducer
+//exporting all; the actions so you could use it else where
+export const {  setFirstname, setLastname, setEmail, setPassword, setLoading, logout } =
+  authSlice.actions;
+
+//exporting the reducer so you could add it to the store
+export default authSlice.reducer;

@@ -1,7 +1,7 @@
 .NavBar {
   display: flex;
   max-width: 1360px;
-  margin: 0 auto;
+  margin:0 5rem ;
   align-items: center;
   
 }
@@ -11,28 +11,26 @@
   box-shadow: 3px 0px 5px 0px rgba(0, 0, 0, 0.25);
 }
 .NavBar-logo {
-  width:6% ;
-  height:7% ;
+  width:8% ;
+  height:9% ;
   margin-right: auto;
   display: flex;
   align-items: center;
 }
 .NavBar-nav ul {
   display: flex;
-  gap: 2rem;
+  gap: 2.5rem;
   align-items: flex-start;
 }
 .NavBar_second {
   display: flex;
-  gap: 3rem;
+  gap: 5.5rem;
   align-items: center;
 }
 .NavBar-nav ul li {
   list-style: none;
   font-weight: 600;
   font-size: small;
-  
-  
 }
 .NavBar-nav a {
   text-decoration: none;
@@ -53,12 +51,11 @@
   
 }
 .NavBar-SignIn a {
-  /*text-decoration: none;*/
   color: #000;
   text-align: center;
   font-weight: 600;
-  padding: 8.9px;
   font-size: small;
+  padding: 8.9px;
 }
 .NavBar-PostaJob {
   border: none;
@@ -72,6 +69,7 @@
   white-space: nowrap;
   text-align: center;
   font-weight: 600;
-  padding: 8.9px;
   font-size: small;
+  padding: 8.9px;
+ 
 }

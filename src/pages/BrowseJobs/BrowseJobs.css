@@ -1,67 +1,4 @@
 .browse-part1{
-<<<<<<< HEAD
-padding-top: 5rem;
-    text-align: center;
-    color: #FFF;
-}
-.browse-connect{
-    padding-top: 0.5rem;
-    padding-bottom: 0.7rem;
-    font-size: 1.2rem;
-}
-.browse-input{
-   margin-right: 1rem; 
-   border: none;
-   border-radius: 0px;
-   font-size: 1rem;
-   height: 42px;
-    width: 13rem;
-    border-radius: 0.1rem;
-    padding: 0.5rem;
-}
-.browse-button{
-    height: 42px;
-    width: 150px;
-    background-color: #0374E4;
-    border: none;
-    color: #FFF;
-    font-size: 1rem;
-    border-radius: 0.1rem;
-}
-.browse-latest{
-    margin: 0 5rem;
-}
-.browse-latest-job{
-    color:#0F0F0F;
-    text-align: center;
-    padding-top: 3rem;
-    font-size: 2rem;
-    
-    text-align: center;
-    padding-bottom: 1.5rem
-}
-.browse-digital{
-    color: #0F0F0F;
-}
-.browse-box{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 1.5rem;
-    padding-bottom: 2rem;
-    margin-top: 2rem;
-    border: 2px solid #FFFFFF;
-    border-left: 1rem solid #0374E4;
-    border-radius: 10px;
-    box-shadow: 3px 0px 5px 0px rgba(0, 0, 0, 0.25);
-    padding-left: 1rem;
-    padding-right: 5rem;
-
-}
-.browse-lagos{
-    display: flex;
-   padding-top: 1rem;
-    padding-bottom: 0.3rem;
-=======
     padding-top: 5rem;
         text-align: center;
         color: #FFF;
@@ -76,6 +13,10 @@ padding-top: 5rem;
        border: none;
        border-radius: 0px;
        font-size: 1rem;
+       height: 42px;
+        width: 13rem;
+        border-radius: 0.1rem;
+        padding: 0.5rem;
     }
     .browse-button{
         height: 42px;
@@ -84,17 +25,19 @@ padding-top: 5rem;
         border: none;
         color: #FFF;
         font-size: 1rem;
+        border-radius: 0.1rem;
     }
     .browse-latest{
-        padding-left: 10rem;
-        padding-right: 10rem;
+        margin: 0 5rem;
     }
     .browse-latest-job{
         color:#0F0F0F;
         text-align: center;
         padding-top: 3rem;
         font-size: 2rem;
-        font-weight: 420;
+        
+        text-align: center;
+        padding-bottom: 1.5rem
     }
     .browse-digital{
         color: #0F0F0F;
@@ -111,7 +54,6 @@ padding-top: 5rem;
         box-shadow: 3px 0px 5px 0px rgba(0, 0, 0, 0.25);
         padding-left: 1rem;
         padding-right: 5rem;
->>>>>>> main
     
     }
     .browse-lagos{
@@ -157,78 +99,46 @@ padding-top: 5rem;
         font-size: 1rem;
         border-radius: 5px;
     }
-    .browse-grid{
+    .browse-grid2{
         display: grid;
+        grid-template-columns: auto auto auto auto;
+        column-gap: 2rem;
+        column-gap: 6.5rem;
+        row-gap: 3rem;
+        justify-content: center;
+        margin: 1.5rem;
     }
+    
     .browse-grid1{
-        margin-left: 2rem;
+        
         border: 1px solid #0374E4;
-        width: 10rem;
+        width: 11rem;
     height: 8rem;
     text-align: center;
-<<<<<<< HEAD
-}
-.browse-icon2a{
-    margin-right: 1rem;
-}
-.browse-button2a{
-    height: 3rem;
-    width: 8rem;
-    background-color: #0374E4;
-    border: none;
-    color: #FFF;
-    font-size: 1rem;
-    border-radius: 5px;
-}
-.browse-grid2{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    column-gap: 2rem;
-    column-gap: 6.5rem;
-    row-gap: 3rem;
-    justify-content: center;
-    margin: 1.5rem;
-}
-
-.browse-grid1{
-    
-    border: 1px solid #0374E4;
-    width: 11rem;
-height: 8rem;
-text-align: center;
-padding-top: 1rem;
-
-}
-
-  
- 
-.browse-jobs{
-    color: #8A8888;
-}
-.browsebutton1{
-    text-align: center;
-  }
-  .browse-section2-button2 {
-    border: none;
-    border-radius: 6px;
-    background: #0374e4;
-    padding: 8.9px;
-    margin-top: 2rem;
-    width: 11rem;
-  }
-  .browse-section2-button2 a{
-  color: #fff;
-  font-weight: 600;
-    font-size: small;
-  }
-
-=======
     padding-top: 1rem;
+    
     }
+    
+      
      
     .browse-jobs{
         color: #8A8888;
     }
+    .browsebutton1{
+        text-align: center;
+      }
+      .browse-section2-button2 {
+        border: none;
+        border-radius: 6px;
+        background: #0374e4;
+        padding: 8.9px;
+        margin-top: 2rem;
+        width: 11rem;
+      }
+      .browse-section2-button2 a{
+      color: #fff;
+      font-weight: 600;
+        font-size: small;
+      }
     
     
->>>>>>> main

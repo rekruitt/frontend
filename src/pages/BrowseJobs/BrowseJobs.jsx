@@ -4,6 +4,7 @@ import {BiLocationPlus} from "react-icons/Bi";
 import {RiBriefcase4Line } from "react-icons/Ri";
 import {FiBookmark} from "react-icons/Fi";
 import {FiShare2} from "react-icons/Fi";
+import { Link } from "react-router-dom";
 
 const BrowseJobs = () => {
   return (
@@ -17,8 +18,18 @@ const BrowseJobs = () => {
         <h2>Find the best jobs</h2>
         <p className='browse-connect'>Lets connect you to verified jobs across the world</p>
         <input type='name' className='browse-input' placeholder='Enter job title'></input>
-        <input type='name'className='browse-input' placeholder='Job categories'></input>
-        <input type='name'className='browse-input' placeholder='Job Location'></input>
+        <select className='browse-input'>
+    <option>Job categories</option>
+    <option>lagos</option>
+    <option>Abuja</option>
+    <option>Calabar</option>
+    </select>
+    <select className='browse-input'>
+    <option>Job Location</option>
+    <option>lagos</option>
+    <option>Abuja</option>
+    <option>Calabar</option>
+    </select>
        <button className='browse-button'>Search now</button>
       </div>
       <div className='browse-latest'>
@@ -187,7 +198,7 @@ const BrowseJobs = () => {
       </div>
       <div className='browse-grid'>
         <h3 className='browse-latest-job'>Browse by  job categories</h3>
-        <div>
+        <div className='browse-grid2'>
         <div className='browse-grid1'>
         <img className='browse-grida' src="./browse-icon.svg"/>
         <p>Agriculture</p>
@@ -229,6 +240,11 @@ const BrowseJobs = () => {
         </div>
       </div>
       </div>
+      <div className="browsebutton1">
+<button className="browse-section2-button2">
+          <Link to="/PostaJob">View all job categories</Link>
+        </button>
+        </div>
 
     </div>
   )

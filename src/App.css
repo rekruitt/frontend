@@ -1,18 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 
 
-a:link,
-a:checked,
-a:visited {
-  text-decoration: none;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 
 
 
@@ -24,5 +12,15 @@ body, html {
   line-height: normal;
 }
 
+a:link,
+a:checked,
+a:visited {
+  text-decoration: none;
+}
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 

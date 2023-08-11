@@ -1,40 +1,50 @@
-import { createSlice } from '@reduxjs/toolkit';
-import { login } from './authActions';
+import { createSlice,} from "@reduxjs/toolkit";
 
-// initialize userToken from local storage
-const userToken = localStorage.getItem('userToken')
-  ? localStorage.getItem('userToken')
-  : null
-
+//this is the initial state
 const initialState = {
-  loading: false,
-  userInfo: null,
-  userToken,
-  error: null,
-  success: false,
-}
+  firstname: "",
+  lastname: "",
+  email: "",
+  password: "",
+  userToken: "",
+  isLoading: false,
+};
 
-const authSlice = createSlice({
-  name: 'auth',
+//creating the auth slice
+export const authSlice = createSlice({
+  name: "auth",
   initialState,
-  reducers: {},
-  extraReducers: {
-    // login user
-    [login.pending]: (state) => {
-      state.loading = true
-      state.error = null
+  reducers: {
+    setFirstname: (state, { payload }) => {
+      state.firstname = payload;
     },
-    [login.fulfilled]: (state, { payload }) => {
-      state.loading = false
-      state.userInfo = payload
-      state.userToken = payload.userToken
+    setLastname: (state, { payload }) => {
+      state.lastname = payload;
     },
-    [login.rejected]: (state, { payload }) => {
-      state.loading = false
-      state.error = payload
+    setEmail: (state, { payload }) => {
+      state.email = payload;
     },
-    // register user reducer...
+    setPassword: (state, { payload }) => {
+      state.password = payload;
+    },
+    //action to show if its loading
+    setLoading: (state, { payload }) => {
+      state.isLoading = payload;
+    },
+    //action to log out
+    logout: (state) => {
+      state.firstname = "";
+      state.lastname = "";
+      state.email = "";
+      state.password = "";
+      state.userToken = "";
+    },
   },
-})
+});
 
+//exporting all; the actions so you could use it else where
+export const {  setFirstname, setLastname, setEmail, setPassword, setLoading, logout } =
+  authSlice.actions;
+
+//exporting the reducer so you could add it to the store
 export default authSlice.reducer;

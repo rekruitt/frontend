@@ -2,15 +2,57 @@
     display: flex;
 }
 
-.signin_form{
-    width: 100%;
-    margin-bottom: 10px;
+.signin_section{
+    padding: 5rem;
 }
 
-.signin_input_icon{
+.signin_h2{
+    margin-bottom: 1rem;
+}
 
+.signin_p{
+    margin-bottom: 1rem;
+    color: rgba(99, 94, 94, 1);
+}
+
+.signin_form{
+    display: flex;
+  flex-direction: column;
+  width: 40rem;
 }
 
 .signin_input{
+    border-radius: 10px;
+    height: 60px;
+    padding: 10px 16px;
+    border-width: 1px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
 
+.signin_button{
+    margin-top: 2rem;
+  width: 40rem;
+  height: 60px;
+  border-radius: 8px;
+  border-style: none;
+  background-color: #0374e4;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 16px;
+  text-align: center;
+  font-size: medium;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+
+.signin_signup{
+    margin-left: 15rem;
+    margin-top: 2rem;
+}
+
+.signin_span{
+    color: #0374e4;
+    font-weight: 500;
 }

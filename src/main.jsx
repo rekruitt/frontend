@@ -10,6 +10,7 @@ import SignUp from "./pages/SignUp/SignUp.jsx";
 import SignIn from "./pages/SignIn/SignIn.jsx";
 import PostaJob from "./pages/PostaJob/PostaJob.jsx";
 import Hero from "./pages/Hero/Hero.jsx";
+import Faq from "./pages/Faq/Faq.jsx";
 import store, { persistor } from "./features/store";
 import { Provider } from "react-redux";
 import { ToastContainer } from "react-toastify";
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
       {
         path: "/postajob",
         element: <PostaJob />,
+      },
+      {
+        path: "/faq",
+        element: <Faq/>,
       },
     ],
   },

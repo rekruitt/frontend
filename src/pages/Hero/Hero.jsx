@@ -196,7 +196,9 @@ and follwing the easy registration process.</p>
           backgroundImage: "url(./subscribeimg.svg)",
           backgroundRepeat: "no-repeat",
           marginBottom: "0px",
-          height: "410px",
+         height: "410px",
+         backgroundSize: "cover"
+        
         }}
       >
        
@@ -216,8 +218,6 @@ and follwing the easy registration process.</p>
         <button className="hero-subscribe-button">subscribe</button>
       </div>
         
-    
-     
     </div>
   );
 };

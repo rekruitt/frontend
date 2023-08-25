@@ -33,11 +33,111 @@ const BrowseJobs = () => {
        <button className='browse-button'>Search now</button>
       </div>
       <div className='browse-latest'>
-        <h3 className='browse-latest-job'>Latest Jobs</h3>
+        <h2 className='browse-latest-job'>Latest Jobs</h2>
         <div className='browse-box'>
           <div>
           <p className='browse-graphics'>Graphic Designer</p>
             <p className='browse-digital'>Hermosa Digital</p>
+            <div className='browse-lagos'>
+            <BiLocationPlus size='1.5rem' className='browse-icon'/>
+            <p className='browse-lagos1'>Lagos</p>
+            <RiBriefcase4Line size='1.5rem' className='browse-icon'/>
+              <p className='browse-lagos1'>Fulltime</p>
+            </div>
+            <p className='browse-date'>12/3/2023</p>
+          </div>
+          <div>
+            <button className='browse-button2'>Apply Now</button>
+            <div className='browse-icon2'>
+            <FiBookmark size='1.875rem' className='browse-icon2a'/>
+            <FiShare2 size='1.875rem'/>
+            </div>
+          </div>
+        </div>
+        <div className='browse-box'>
+          <div>
+          <p className='browse-graphics'>Front-end Engineer</p>
+            <p className='browse-digital'>Crop2cash</p>
+            <div className='browse-lagos'>
+            <BiLocationPlus size='1.5rem' className='browse-icon'/>
+            <p className='browse-lagos1'>Lagos</p>
+            <RiBriefcase4Line size='1.5rem' className='browse-icon'/>
+              <p className='browse-lagos1'>Fulltime</p>
+            </div>
+            <p className='browse-date'>12/3/2023</p>
+          </div>
+          <div>
+            <button className='browse-button2'>Apply Now</button>
+            <div className='browse-icon2'>
+            <FiBookmark size='1.875rem' className='browse-icon2a'/>
+            <FiShare2 size='1.875rem'/>
+            </div>
+          </div>
+        </div>
+        <div className='browse-box'>
+          <div>
+          <p className='browse-graphics'>Project Manager</p>
+            <p className='browse-digital'>Farm Speak</p>
+            <div className='browse-lagos'>
+            <BiLocationPlus size='1.5rem' className='browse-icon'/>
+            <p className='browse-lagos1'>Lagos</p>
+            <RiBriefcase4Line size='1.5rem' className='browse-icon'/>
+              <p className='browse-lagos1'>Fulltime</p>
+            </div>
+            <p className='browse-date'>12/3/2023</p>
+          </div>
+          <div>
+            <button className='browse-button2'>Apply Now</button>
+            <div className='browse-icon2'>
+            <FiBookmark size='1.875rem' className='browse-icon2a'/>
+            <FiShare2 size='1.875rem'/>
+            </div>
+          </div>
+        </div>
+        <div className='browse-box'>
+          <div>
+          <p className='browse-graphics'>Virtual Assistant</p>
+            <p className='browse-digital'>Roma Technology</p>
+            <div className='browse-lagos'>
+            <BiLocationPlus size='1.5rem' className='browse-icon'/>
+            <p className='browse-lagos1'>Lagos</p>
+            <RiBriefcase4Line size='1.5rem' className='browse-icon'/>
+              <p className='browse-lagos1'>Fulltime</p>
+            </div>
+            <p className='browse-date'>12/3/2023</p>
+          </div>
+          <div>
+            <button className='browse-button2'>Apply Now</button>
+            <div className='browse-icon2'>
+            <FiBookmark size='1.875rem' className='browse-icon2a'/>
+            <FiShare2 size='1.875rem'/>
+            </div>
+          </div>
+        </div>
+        <div className='browse-box'>
+          <div>
+          <p className='browse-graphics'>Real Estate Agent</p>
+            <p className='browse-digital'>Mshel Homes</p>
+            <div className='browse-lagos'>
+            <BiLocationPlus size='1.5rem' className='browse-icon'/>
+            <p className='browse-lagos1'>Lagos</p>
+            <RiBriefcase4Line size='1.5rem' className='browse-icon'/>
+              <p className='browse-lagos1'>Fulltime</p>
+            </div>
+            <p className='browse-date'>12/3/2023</p>
+          </div>
+          <div>
+            <button className='browse-button2'>Apply Now</button>
+            <div className='browse-icon2'>
+            <FiBookmark size='1.875rem' className='browse-icon2a'/>
+            <FiShare2 size='1.875rem'/>
+            </div>
+          </div>
+        </div>
+        <div className='browse-box'>
+          <div>
+          <p className='browse-graphics'>Product Designer</p>
+            <p className='browse-digital'>Asa Technology</p>
             <div className='browse-lagos'>
             <BiLocationPlus size='1.5rem' className='browse-icon'/>
             <p className='browse-lagos1'>Lagos</p>
@@ -76,8 +176,8 @@ const BrowseJobs = () => {
         </div>
         <div className='browse-box'>
           <div>
-          <p className='browse-graphics'>Graphic Designer</p>
-            <p className='browse-digital'>Hermosa Digital</p>
+          <p className='browse-graphics'>Back-end Engineer</p>
+            <p className='browse-digital'>Crop2cash</p>
             <div className='browse-lagos'>
             <BiLocationPlus size='1.5rem' className='browse-icon'/>
             <p className='browse-lagos1'>Lagos</p>
@@ -94,110 +194,10 @@ const BrowseJobs = () => {
             </div>
           </div>
         </div>
-        <div className='browse-box'>
-          <div>
-          <p className='browse-graphics'>Graphic Designer</p>
-            <p className='browse-digital'>Hermosa Digital</p>
-            <div className='browse-lagos'>
-            <BiLocationPlus size='1.5rem' className='browse-icon'/>
-            <p className='browse-lagos1'>Lagos</p>
-            <RiBriefcase4Line size='1.5rem' className='browse-icon'/>
-              <p className='browse-lagos1'>Fulltime</p>
-            </div>
-            <p className='browse-date'>12/3/2023</p>
-          </div>
-          <div>
-            <button className='browse-button2'>Apply Now</button>
-            <div className='browse-icon2'>
-            <FiBookmark size='1.875rem' className='browse-icon2a'/>
-            <FiShare2 size='1.875rem'/>
-            </div>
-          </div>
-        </div>
-        <div className='browse-box'>
-          <div>
-          <p className='browse-graphics'>Graphic Designer</p>
-            <p className='browse-digital'>Hermosa Digital</p>
-            <div className='browse-lagos'>
-            <BiLocationPlus size='1.5rem' className='browse-icon'/>
-            <p className='browse-lagos1'>Lagos</p>
-            <RiBriefcase4Line size='1.5rem' className='browse-icon'/>
-              <p className='browse-lagos1'>Fulltime</p>
-            </div>
-            <p className='browse-date'>12/3/2023</p>
-          </div>
-          <div>
-            <button className='browse-button2'>Apply Now</button>
-            <div className='browse-icon2'>
-            <FiBookmark size='1.875rem' className='browse-icon2a'/>
-            <FiShare2 size='1.875rem'/>
-            </div>
-          </div>
-        </div>
-        <div className='browse-box'>
-          <div>
-          <p className='browse-graphics'>Graphic Designer</p>
-            <p className='browse-digital'>Hermosa Digital</p>
-            <div className='browse-lagos'>
-            <BiLocationPlus size='1.5rem' className='browse-icon'/>
-            <p className='browse-lagos1'>Lagos</p>
-            <RiBriefcase4Line size='1.5rem' className='browse-icon'/>
-              <p className='browse-lagos1'>Fulltime</p>
-            </div>
-            <p className='browse-date'>12/3/2023</p>
-          </div>
-          <div>
-            <button className='browse-button2'>Apply Now</button>
-            <div className='browse-icon2'>
-            <FiBookmark size='1.875rem' className='browse-icon2a'/>
-            <FiShare2 size='1.875rem'/>
-            </div>
-          </div>
-        </div>
-        <div className='browse-box'>
-          <div>
-          <p className='browse-graphics'>Graphic Designer</p>
-            <p className='browse-digital'>Hermosa Digital</p>
-            <div className='browse-lagos'>
-            <BiLocationPlus size='1.5rem' className='browse-icon'/>
-            <p className='browse-lagos1'>Lagos</p>
-            <RiBriefcase4Line size='1.5rem' className='browse-icon'/>
-              <p className='browse-lagos1'>Fulltime</p>
-            </div>
-            <p className='browse-date'>12/3/2023</p>
-          </div>
-          <div>
-            <button className='browse-button2'>Apply Now</button>
-            <div className='browse-icon2'>
-            <FiBookmark size='1.875rem' className='browse-icon2a'/>
-            <FiShare2 size='1.875rem'/>
-            </div>
-          </div>
-        </div>
-        <div className='browse-box'>
-          <div>
-          <p className='browse-graphics'>Graphic Designer</p>
-            <p className='browse-digital'>Hermosa Digital</p>
-            <div className='browse-lagos'>
-            <BiLocationPlus size='1.5rem' className='browse-icon'/>
-            <p className='browse-lagos1'>Lagos</p>
-            <RiBriefcase4Line size='1.5rem' className='browse-icon'/>
-              <p className='browse-lagos1'>Fulltime</p>
-            </div>
-            <p className='browse-date'>12/3/2023</p>
-          </div>
-          <div>
-            <button className='browse-button2'>Apply Now</button>
-            <div className='browse-icon2'>
-            <FiBookmark size='1.875rem' className='browse-icon2a'/>
-            <FiShare2 size='1.875rem'/>
-            </div>
-          </div>
-        </div>
-        <button  className='browse-button2a'>View all jobs</button>
+  
       </div>
       <div className='browse-grid'>
-        <h3 className='browse-latest-job'>Browse by  job categories</h3>
+        <h3 className='browse-latest-job'>Popular job categories</h3>
         <div className='browse-grid2'>
         <div className='browse-grid1'>
         <img className='browse-grida' src="./browse-icon.svg"/>
@@ -239,13 +239,31 @@ const BrowseJobs = () => {
         <p className='browse-jobs'>Explore more Categories</p>
         </div>
       </div>
-      </div>
+      
       <div className="browsebutton1">
 <button className="browse-section2-button2">
           <Link to="/PostaJob">View all job categories</Link>
         </button>
         </div>
-
+</div>
+      <div className='browse-footer'
+       style={{
+        backgroundImage: "url(./browseimg.png)",
+        backgroundRepeat: "no-repeat",
+        height: "20rem",
+      }}>
+         <h2 className="browse-subscribe1">Stay updated</h2>
+        <p className="browse-subscribe2">
+        Subscribe to our job alert and get latest job listings
+        </p>
+        <input
+          type="text"
+          placeholder="Email"
+          className="browse-subscribe-input"
+        ></input>
+        {/*why is the button not aligning with the input field */}
+        <button className="browse-subscribe-button">Notify me</button>
+</div>
     </div>
   )
 }

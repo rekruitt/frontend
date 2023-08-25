@@ -38,7 +38,7 @@ const Footer = () => {
               <h3 className="footer-header">Support</h3>
               <ul className="footer-list">
               <li>
-                <Link to="">FAQ</Link>
+                <Link to="/faq">FAQ</Link>
               </li>
               <li>
                 <Link to="">Help</Link>

@@ -61,7 +61,7 @@ const AboutUs = () => {
               <img src={number1} width="25px" height="25px"/>
               <p>
                 Executive Search: We specialize in finding
-                <br />
+                <br/>
                 exceptional executive-level talent to lead <br />
                 organizations towards success. <br />
               </p>

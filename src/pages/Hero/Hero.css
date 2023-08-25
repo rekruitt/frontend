@@ -6,7 +6,7 @@ box-shadow: 2px 7px 60px 0px rgba(3, 116, 228, 0.20);
 width: 37rem;
 height: 18rem;
 margin-top: 14rem;
-margin-left: 6rem;
+margin-left: 18rem;
 position: absolute;
  padding: 2rem 2.5rem 2.5rem 3.5rem; 
 }
@@ -74,6 +74,7 @@ margin-top: 1.3rem;
 margin: 3rem;
 justify-content: center;
   text-align: center;
+  gap:6rem
 }
 .heroregister{
   padding-right: 5rem;
@@ -92,12 +93,19 @@ font-size: 1rem;
 }
 .heropart3{
   background-color: #F6F7FC;
- padding: 3rem;
- padding-left: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  
+
 }
 .heropart3a{
   display: flex;
-  margin: 1rem ;
+  gap: 15rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 .Hero-section2-part1 {
   padding-top: 60px;
@@ -131,8 +139,9 @@ font-size: 1rem;
 .heropart3b{
   display: flex;
   margin: 1rem ;
-  margin-top: 3rem;
   margin-bottom: 3rem;
+  gap: 10rem;
+  margin-top: 5rem;
 }
 .Hero-section2-part2 {
   padding-top: 60px;
@@ -256,7 +265,6 @@ padding-left: 1.8rem;
   /*subscribe*/
 .hero-subscribe {
   text-align: center;
- 
 }
   .hero-subscribe-input {
     border-radius: 5px 0px 0px 5px;

@@ -10,6 +10,7 @@ import SignIn from "./pages/SignIn/SignIn.jsx";
 import PostaJob from "./pages/PostaJob/PostaJob.jsx";
 import Hero from "./pages/Hero/Hero.jsx";
 import Faq from "./pages/Faq/Faq.jsx";
+import DashBoard from "./DashBoard.jsx";
 import Home from "./pages/Home/Home.jsx";
 import ManageVacancies from "./pages/ManageVacancies/ManageVacancies.jsx";
 import ManageApplicants from "./pages/ManageApplicants/ManageApplicants.jsx";
@@ -19,7 +20,6 @@ import Messages from "./pages/Messages/Messages.jsx";
 import CompanyProfile from "./pages/Companyprofile/CompanyProfile.jsx";
 import Settings from "./pages/Settings/Settings.jsx";
 import NeedHelp from "./pages/NeedHelp/NeedHelp.jsx";
-
 import store, { persistor } from "./features/store";
 import { Provider } from "react-redux";
 import { ToastContainer } from "react-toastify";
@@ -72,42 +72,42 @@ const router = createBrowserRouter([
   },
   {
     path: "/dashboard",
-    element: <DashBoard />,
+    element: <DashBoard/>,
     children: [
       {
-        path: "/home",
+        path: "/dashboard",
         element: <Home />,
       },
       {
-        path: "/managevacancies",
+        path: "/dashboard/managevacancies",
         element: <ManageVacancies />,
       },
       {
-        path: "/manageapplicants",
+        path: "/dashboard/manageapplicants",
         element: <ManageApplicants />,
       },
       {
-        path: "/testresult",
+        path: "/dashboard/testresult",
         element: <TestResults />,
       },
       {
-        path: "/testsetup",
+        path: "/dashboard/testsetup",
         element: <TestSetup />,
       },
       {
-        path: "/messages",
+        path: "/dashboard/messages",
         element: <Messages/>,
       },
       {
-        path: "/companyprofile",
+        path: "/dashboard/companyprofile",
         element: <CompanyProfile />,
       },
       {
-        path: "/settings",
+        path: "/dashboard/settings",
         element: <Settings />,
       },
       {
-        path: "/needhelp",
+        path: "/dashboard/needhelp",
         element: <NeedHelp />,
       },
     ],

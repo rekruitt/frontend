@@ -1,14 +1,15 @@
 import React from 'react';
 import {Link, Outlet } from "react-router-dom";
-import SideBar from './components/SideBar/SideBar';
+import SideBar from './components/SideBar/SideBar.jsx';
 
-const Dashboard = () => {
+const DashBoard = () => {
   return (
     <div>
         <SideBar/>
-        <Outlet />
+        <Outlet/>
+
     </div>
   )
 }
 
-export default Dashboard;
+export default DashBoard;

@@ -6,11 +6,20 @@ import BrowseJobs from "./pages/BrowseJobs/BrowseJobs.jsx";
 import Blog from "./pages/Blog/Blog.jsx";
 import AboutUs from "./pages/AboutUs/AboutUs.jsx";
 import ContactUs from "./pages/ContactUs/ContactUs.jsx";
-import SignUp from "./pages/SignUp/SignUp.jsx";
 import SignIn from "./pages/SignIn/SignIn.jsx";
 import PostaJob from "./pages/PostaJob/PostaJob.jsx";
 import Hero from "./pages/Hero/Hero.jsx";
 import Faq from "./pages/Faq/Faq.jsx";
+import Home from "./pages/Home/Home.jsx";
+import ManageVacancies from "./pages/ManageVacancies/ManageVacancies.jsx";
+import ManageApplicants from "./pages/ManageApplicants/ManageApplicants.jsx";
+import TestResults from "./pages/TestResults/TestResults.jsx";
+import TestSetup from "./pages/TestSetup/TestSetup.jsx";
+import Messages from "./pages/Messages/Messages.jsx";
+import CompanyProfile from "./pages/Companyprofile/CompanyProfile.jsx";
+import Settings from "./pages/Settings/Settings.jsx";
+import NeedHelp from "./pages/NeedHelp/NeedHelp.jsx";
+
 import store, { persistor } from "./features/store";
 import { Provider } from "react-redux";
 import { ToastContainer } from "react-toastify";
@@ -26,7 +35,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/Hero",
+        path: "/hero",
         element: <Hero />,
       },
       {
@@ -62,8 +71,46 @@ const router = createBrowserRouter([
     element: <SignIn />,
   },
   {
-    path: "/signup",
-    element: <SignUp />,
+    path: "/dashboard",
+    element: <DashBoard />,
+    children: [
+      {
+        path: "/home",
+        element: <Home />,
+      },
+      {
+        path: "/managevacancies",
+        element: <ManageVacancies />,
+      },
+      {
+        path: "/manageapplicants",
+        element: <ManageApplicants />,
+      },
+      {
+        path: "/testresult",
+        element: <TestResults />,
+      },
+      {
+        path: "/testsetup",
+        element: <TestSetup />,
+      },
+      {
+        path: "/messages",
+        element: <Messages/>,
+      },
+      {
+        path: "/companyprofile",
+        element: <CompanyProfile />,
+      },
+      {
+        path: "/settings",
+        element: <Settings />,
+      },
+      {
+        path: "/needhelp",
+        element: <NeedHelp />,
+      },
+    ],
   },
 ]);
 

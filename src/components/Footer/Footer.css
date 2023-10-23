@@ -5,7 +5,7 @@
   margin: 0 5rem;
   gap: 40px;
 }
-footer {
+.footer {
   background: linear-gradient(60deg, #aadaf8 0%, #0374e4 100%);
   padding: 2rem;
 }
@@ -59,4 +59,10 @@ footer {
   color: #fff;
   font-weight: 400;
   text-align: center;
+}
+
+@media screen and (max-width: 768px){
+  .desktop{
+    display: none;
+  }
 }

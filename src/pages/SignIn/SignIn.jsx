@@ -9,37 +9,37 @@ import Navbar from "../../components/NavigationBar/Navbar";
 import signin from "../../assets/images/signin/login.png";
 
 function SignIn() {
-  const [form, setForm] = useState({
+  const [formData, setFormData] = useState({
     email: "",
     password: "",
   });
 
-  const { email, password } = form;
-
-  const dispatch = useDispatch();
-  const navigate = useNavigate();
-
   const { isLoading } = useSelector((state) => state.auth);
 
   const onChange = (e) => {
-    setForm((prevState) => ({
+    const { name, value } = e.target;
+    setFormData((prevState) => ({
       ...prevState,
-      [e.target.name]: e.target.value,
+      [name]: value,
     }));
   };
 
+
   const onSubmit = (e) => {
     e.preventDefault();
+
+    const {  email, password } = formData;
 
     const userData = {
       email,
       password,
     };
 
+
     dispatch(login(userData))
       .unwrap()
       .then((user) => {
-        toast.success(`Logged in as ${user.name}`);
+        toast.success(`Logged in as ${user.firstname}`);
         navigate("/");
       })
       .catch(toast.error);
@@ -71,7 +71,7 @@ function SignIn() {
               className="signin_input"
               type="email"
               name="email"
-              value={email}
+              value={formData.email}
               onChange={onChange}
               placeholder="someone@example.com"
               required
@@ -84,7 +84,7 @@ function SignIn() {
               className="signin_input"
               type="password"
               name="password"
-              value={password}
+              value={formData.password}
               onChange={onChange}
               placeholder="Enter password"
               required

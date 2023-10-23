@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import "./SignUp.css";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
@@ -8,35 +8,35 @@ import signupimg from "../../assets/images/signup/signup.png";
 import Navbar from "../../components/NavigationBar/Navbar";
 
 function SignUp() {
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+
   const [formData, setFormData] = useState({
     firstname: "",
     lastname: "",
     email: "",
     password: "",
-    confirmPassword: "",
+    confirmPassword: ""
   });
-
-  const { firstname, lastname, email, password, confirmPassword } = formData;
-  const dispatch = useDispatch();
-  const navigate = useNavigate();
 
   const { isLoading } = useSelector((state) => state.auth);
 
   const onChange = (e) => {
+    const { name, value } = e.target;
     setFormData((prevState) => ({
       ...prevState,
-      [e.target.name]: e.target.value,
+      [name]: value,
     }));
-    // setFormData(e.target.value);
   };
 
   const onSubmit = (e) => {
     e.preventDefault();
-    console.log("checkkk");
-    if (password !== confirmPassword) {
-      console.log("toastt ");
+
+    if (formData.password !== formData.confirmPassword) {
       toast.error("Passwords do not match");
     } else {
+      const { firstname, lastname, email, password } = formData;
+
       const userData = {
         firstname,
         lastname,
@@ -57,7 +57,7 @@ function SignUp() {
       <Navbar />
       <div className="signup">
         <div className="signup_img">
-          <img src={signupimg} />
+          <img src={signupimg} alt="Signup" />
         </div>
         <div className="signup_section">
           <h2 className="signup_h2">Welcome to Rekruit</h2>
@@ -70,8 +70,8 @@ function SignUp() {
                 <input
                   className="signup_inputname"
                   type="text"
-                  name="firstName"
-                  value={firstname}
+                  name="firstname"
+                  value={formData.firstname}
                   onChange={onChange}
                   placeholder="First Name"
                   required
@@ -80,7 +80,7 @@ function SignUp() {
                   className="signup_inputname"
                   type="text"
                   name="lastname"
-                  value={lastname}
+                  value={formData.lastname}
                   onChange={onChange}
                   placeholder="Last Name"
                   required
@@ -94,7 +94,7 @@ function SignUp() {
                 className="signup_input"
                 type="email"
                 name="email"
-                value={email}
+                value={formData.email}
                 onChange={onChange}
                 placeholder="someone@example.com"
                 required
@@ -107,7 +107,7 @@ function SignUp() {
                 className="signup_input"
                 type="password"
                 name="password"
-                value={password}
+                value={formData.password}
                 onChange={onChange}
                 placeholder="Enter password"
                 required
@@ -119,8 +119,8 @@ function SignUp() {
               <input
                 className="signup_input"
                 type="password"
-                name="confirmpassword"
-                value={confirmPassword}
+                name="confirmPassword"
+                value={formData.confirmPassword}
                 onChange={onChange}
                 placeholder="Re-enter password"
                 required
@@ -132,8 +132,7 @@ function SignUp() {
             </button>
           </form>
           <p className="signup_login">
-            I already have an account?{" "}
-            <span className="signup_span">Login</span>
+            I already have an account? <span className="signup_span">Login</span>
           </p>
         </div>
       </div>

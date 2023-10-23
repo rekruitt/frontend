@@ -2,7 +2,7 @@ import axios from "axios";
 import store from "../features/store";
 
 const axiosInstance = axios.create({
-  baseURL: "https://recruit-app.onrender.com/",
+  baseURL: "https://recruit-app.onrender.com",
   timeout: 10000,
 });
 

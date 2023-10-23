@@ -1,47 +1,46 @@
-
-.hero1{
+.hero1 {
   border-radius: 1rem;
   background: #fff;
-box-shadow: 2px 7px 60px 0px rgba(3, 116, 228, 0.20);
-width: 37rem;
-height: 18rem;
-margin-top: 14rem;
-margin-left: 18rem;
-position: absolute;
- padding: 2rem 2.5rem 2.5rem 3.5rem; 
+  box-shadow: 2px 7px 60px 0px rgba(3, 116, 228, 0.2);
+  width: 37rem;
+  height: 18rem;
+  margin-top: 14rem;
+  margin-left: 18rem;
+  position: absolute;
+  padding: 2rem 2.5rem 2.5rem 3.5rem;
 }
 
-.Hero-part1{
+.Hero-part1 {
   font-size: 2.5rem;
 }
-.hero1-input1{
+.hero1-input1 {
   width: 14rem;
-padding: 0.625rem 1rem;
-font-size: 0.8rem;
-margin-right: 1.5rem;
-margin-top: 1.3rem;
+  padding: 0.625rem 1rem;
+  font-size: 0.8rem;
+  margin-right: 1.5rem;
+  margin-top: 1.3rem;
 }
-.hero1-input2{
+.hero1-input2 {
   width: 13rem;
-padding: 0.625rem 1rem;
-font-size: 0.8rem;
-margin-top: 1.3rem;
+  padding: 0.625rem 1rem;
+  font-size: 0.8rem;
+  margin-top: 1.3rem;
 }
-.hero1-input2:after{
-    position: absolute;
-    content: "";
-    top: 14px;
-    right: 10px;
-    width: 0;
-    height: 0;
-    border: 6px solid transparent;
-    border-color: #fff transparent transparent transparent;
-  }
-  
-.Hero1-button{
+.hero1-input2:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+.Hero1-button {
   border-radius: 5px;
   border: none;
-  background-color: #0374E4;
+  background-color: #0374e4;
   padding: 8.876px;
   text-decoration: none;
   color: white;
@@ -62,46 +61,42 @@ margin-top: 1.3rem;
   padding: 8.9px;
 }
 /* hero part2 */
-.hero2a{
+.hero2a {
   margin-top: 5rem;
 }
-.hero2header{
+.hero2header {
   text-align: center;
-
 }
-.heropart2{
+.heropart2 {
   display: flex;
-margin: 3rem;
-justify-content: center;
+  margin: 3rem;
+  justify-content: center;
   text-align: center;
-  gap:6rem
+  gap: 6rem;
 }
-.heroregister{
+.heroregister {
   padding-right: 5rem;
 }
-.heropart2text{
-padding-top: 1rem;
+.heropart2text {
+  padding-top: 1rem;
 }
-.heropart2text2{
-font-size: 1rem;
+.heropart2text2 {
+  font-size: 1rem;
 }
- /* hero part3a */
+/* hero part3a */
 .hero-bg2 {
   width: 37rem;
   height: 22rem;
   border-radius: 10px;
 }
-.heropart3{
-  background-color: #F6F7FC;
+.heropart3 {
+  background-color: #f6f7fc;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
-  
-
 }
-.heropart3a{
+.heropart3a {
   display: flex;
   gap: 15rem;
   margin-top: 5rem;
@@ -111,34 +106,33 @@ font-size: 1rem;
   padding-top: 60px;
   padding-left: 5rem;
 }
-.Hero-section2-part1B{
+.Hero-section2-part1B {
   padding-top: 1rem;
-  }
-  .Hero-section2-button {
-    border: none;
-    border-radius: 7px;
-    background: #0374e4;
-    padding: 8.9px;
-    margin-top: 35px;
-    width: 8rem;
-    
-  }
-  .Hero-section2-button a {
-    text-decoration: none;
-    color: #fff;
-    text-align: center;
-    font-weight: 600;
+}
+.Hero-section2-button {
+  border: none;
+  border-radius: 7px;
+  background: #0374e4;
+  padding: 8.9px;
+  margin-top: 35px;
+  width: 8rem;
+}
+.Hero-section2-button a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
   font-size: small;
-  }
-  
-.heroimg2{
+}
+
+.heroimg2 {
   width: 37rem;
   height: 22rem;
-  border-radius: 10px; 
+  border-radius: 10px;
 }
-.heropart3b{
+.heropart3b {
   display: flex;
-  margin: 1rem ;
+  margin: 1rem;
   margin-bottom: 3rem;
   gap: 10rem;
   margin-top: 5rem;
@@ -147,15 +141,15 @@ font-size: 1rem;
   padding-top: 60px;
   padding-right: 6rem;
 }
-.hero-grid{
+.hero-grid {
   margin-top: 3rem;
 }
-.hero2header2{
+.hero2header2 {
   text-align: center;
   padding-bottom: 1.5rem;
 }
 
-.hero-grid2{
+.hero-grid2 {
   display: grid;
   grid-template-columns: auto auto auto auto;
   column-gap: 6.5rem;
@@ -164,19 +158,19 @@ font-size: 1rem;
   margin: 1.5rem;
 }
 
-.hero-grid1{
-  border: 1px solid #8A8888;
+.hero-grid1 {
+  border: 1px solid #8a8888;
   width: 11rem;
-height: 8rem;
-text-align: center;
-padding-top: 1rem;
+  height: 8rem;
+  text-align: center;
+  padding-top: 1rem;
 }
 
-.hero-jobs{
-  color: #8A8888;
+.hero-jobs {
+  color: #8a8888;
 }
 
-.herobutton1{
+.herobutton1 {
   text-align: center;
 }
 .Hero-section2-button2 {
@@ -187,23 +181,21 @@ padding-top: 1rem;
   margin-top: 2rem;
   width: 11rem;
 }
-.Hero-section2-button2 a{
-color: #fff;
-font-weight: 600;
+.Hero-section2-button2 a {
+  color: #fff;
+  font-weight: 600;
   font-size: small;
 }
 
 /* Latest blog posts */
 .herolatest1 {
-  background-color: #F6F7FC;
+  background-color: #f6f7fc;
   padding: 3rem;
   margin-top: 3rem;
-
 }
 .hero-latest-title {
   text-align: center;
   color: #000;
- 
 }
 .hero-latest {
   display: flex;
@@ -220,7 +212,6 @@ font-weight: 600;
   color: #0f0f0f;
   text-align: center;
   font-weight: 550;
-  
 }
 .hero-latest-title2 {
   color: #8a8888;
@@ -235,79 +226,55 @@ font-weight: 600;
   margin-top: 2rem;
   width: 10rem;
 }
-.Hero-section2-button3 a{
+.Hero-section2-button3 a {
   color: #fff;
   font-weight: 600;
   font-size: small;
-  }
- /*subscribe*/
-  .hero-subscribe1 {
-    text-align: center;
-    color: #0f0f0f;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 40px;
-    padding-top: 7rem;
-    word-spacing: 0.1rem;
-  }
-  .hero-subscribe2 {
-    color: #0f0f0f;
-    word-spacing: 0.1rem;
-    padding-top: 1rem;
-
-  }
-  .heroradiobutton{
-    padding:  1rem 0;
-  }
-  .heroradiobuttonspan{
-padding-left: 1.8rem;
-  }
-  /*subscribe*/
+}
+/*subscribe*/
+.hero-subscribe1 {
+  text-align: center;
+  color: #0f0f0f;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  padding-top: 7rem;
+  word-spacing: 0.1rem;
+}
+.hero-subscribe2 {
+  color: #0f0f0f;
+  word-spacing: 0.1rem;
+  padding-top: 1rem;
+}
+.heroradiobutton {
+  padding: 1rem 0;
+}
+.heroradiobuttonspan {
+  padding-left: 1.8rem;
+}
+/*subscribe*/
 .hero-subscribe {
   text-align: center;
 }
-  .hero-subscribe-input {
-    border-radius: 5px 0px 0px 5px;
-    border: 1px solid #0374e4;
-    width: 311px;
-    height: 32px;
-    color: #8a8888;
+.hero-subscribe-input {
+  border-radius: 5px 0px 0px 5px;
+  border: 1px solid #0374e4;
+  width: 311px;
+  height: 32px;
+  color: #8a8888;
   padding: 10px;
-
-  }
-  .hero-subscribe-button {
-    border: none;
-    border-radius: 0px 5px 5px 0px;
-    background: #0374e4;
-    height: 32px;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    font-weight: 600;
+}
+.hero-subscribe-button {
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  background: #0374e4;
+  height: 32px;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-weight: 600;
   font-size: small;
-   
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 .Hero-section2 {
   background-color: #fff;
@@ -323,8 +290,6 @@ padding-left: 1.8rem;
   background: #0374e4;
   position: absolute;
 }
-
-
 
 .hero-boxb {
   width: 550px;
@@ -365,7 +330,78 @@ padding-left: 1.8rem;
   padding-left: 100px;
 }
 
+.hero-mobile{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+  .hero-mobile{
+    display: block;
+  }
+
+  .heromobsec1{
+    background-image: url("../../assets/images/hero/heromobile.jpg");
+    height: 20rem;
+    background-repeat: no-repeat;
+    background-position: center; 
+    z-index: -1;
+    padding-left: 2rem;
+  }
+
+  .mobbtn {
+    border-radius: 5px;
+    border: none;
+    background-color: #0374e4;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    height: 2rem;
+    width: 5.5rem;
+    text-align: center;
+    font-size: 0.7rem;
+   
+  }
+  .mobbtn a {
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.7rem;
+    padding: 8.9px;
+  }
 
 
+  .herotop-h3{
+    color: #fff;
+    padding-top: 7rem;
+    font-size: 1rem;
+    
+  }
+  
+  .herotop-p{
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
 
+  .heromobsec2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
 
+  .mobsteps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+}

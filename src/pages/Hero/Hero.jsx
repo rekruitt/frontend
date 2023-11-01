@@ -255,9 +255,9 @@ const Hero = () => {
         <div className="heromobsec2">
           <h3>Easy steps to get your dream job</h3>
           <div className="mobsteps">
-            <img src={register} width="80px"/>
+            <img src={register} width="80px" />
             <h4>Register with us</h4>
-            <p>
+            <p className="mobile-p">
               It is totally free!!! <br />
               you only need to register by creating an account
               <br />
@@ -265,9 +265,9 @@ const Hero = () => {
             </p>
           </div>
           <div className="mobsteps">
-            <img src={browse} width="80px"/>
+            <img src={browse} width="80px" />
             <h4>Browse the best jobs for you</h4>
-            <p>
+            <p className="mobile-p">
               Find verified jobs based on job categories
               <br />
               and location that are most relevant
@@ -276,27 +276,148 @@ const Hero = () => {
             </p>
           </div>
           <div className="mobsteps">
-            <img src={apply} width="80px"/>
+            <img src={apply} width="80px" />
             <h4>Apply for job</h4>
-            <p>
-              Apply for your preferred job and schedule<br/> your test to be taken
-              within 48hours
+            <p className="mobile-p">
+              Apply for your preferred job and schedule
+              <br /> your test to be taken within 48hours
             </p>
           </div>
         </div>
-        <div>
-          <img />
-          <h2></h2>
-          <p></p>
-          <button></button>
-          <img />
-          <h2></h2>
-          <p></p>
-          <button></button>
+        <div className="heromobsec3">
+          <img src={select} width="90%" className="heromobsec3Img" />
+          <h4>Get selected faster</h4>
+          <p className="mobile-p">
+            Get your CV reviewed faster by a recruiter by <br />
+            passing our test which has to be completed <br />
+            within 48hrs after submission of your <br />
+            application
+          </p>
+          <button className="mobbtn">Get started</button>
+          <img src={connected} width="90%" className="heromobsec3Img" />
+          <h4>Get connected with the best candidate</h4>
+          <p className="mobile-p">
+            With our immediate test screening you
+            <br /> do not have to spend hours reviewing
+            <br /> too many resumes.
+          </p>
+          <button className="mobbtn">Post a job</button>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
+
+        {/*hero grid*/}
+        <div className="hero-grid">
+          <h2 className="hero2header2">Popular job categories</h2>
+          <div className="mobhero-grid2">
+            <div className="hero-grid1">
+              <img className="hero-grida" src="./agriculture.png" />
+              <p>Agriculture</p>
+              <p className="hero-jobs">(25 jobs)</p>
+            </div>
+            <div className="hero-grid1">
+              <img className="hero-grida" src="./advertising.png" />
+              <p>Advertising</p>
+              <p className="hero-jobs">(12 jobs)</p>
+            </div>
+            <div className="hero-grid1">
+              <img className="hero-grida" src="./banking.png" />
+              <p>Banking</p>
+              <p className="hero-jobs">(9 jobs)</p>
+            </div>
+            <div className="hero-grid1">
+              <img className="hero-grida" src="./image Education.png" />
+              <p>Education</p>
+              <p className="hero-jobs">(5 jobs)</p>
+            </div>
+            <div className="hero-grid1">
+              <img className="hero-grida" src="./hospitality.png" />
+              <p>Hospitality</p>
+              <p className="hero-jobs">(20 jobs)</p>
+            </div>
+            <div className="hero-grid1">
+              <img className="hero-grida" src="./enginnering.png" />
+              <p>Engineering</p>
+              <p className="hero-jobs">(21 jobs)</p>
+            </div>
+            <div className="hero-grid1">
+              <img className="hero-grida" src="./image 142.png" />
+              <p>IT services</p>
+              <p className="hero-jobs">(9 jobs)</p>
+            </div>
+            <div className="hero-grid1">
+              <img className="hero-grida" src="./aviation.png" />
+              <p>Aviation</p>
+              <p className="hero-jobs">(9 jobs)</p>
+            </div>
+          </div>
+          <div className="herobutton1">
+            <button className="Hero-section2-button2">
+              <Link to="/PostaJob">View all job categories</Link>
+            </button>
+          </div>
+        </div>
+        {/* Latest blog posts */}
+        <div className="herolatest1">
+          <h2 className="hero2header2">Latest blog posts</h2>
+          <div className="mobhero-latest">
+            <div className="hero-latest-img1">
+              <img className="hero-image" src="./latest1.svg" />
+              <p className="hero-latest-title1">
+                5 Tips for acing your<br></br>interview
+              </p>
+              <p className="hero-latest-title2"> June 24th, 2023</p>
+            </div>
+            <div className="hero-latest-img1">
+              <img className="hero-image" src="./latest2.svg" />
+              <p className="hero-latest-title1">
+                How to start your career<br></br>
+                as a fresh graduate
+              </p>
+              <p className="hero-latest-title2"> June 24th, 2023</p>
+            </div>
+            <div className="hero-latest-img2">
+              <img className="hero-image" src="./latest3.png" />
+              <p className="hero-latest-title1">
+                How to create a resume<br></br>resume
+              </p>
+              <p className="hero-latest-title2"> June 24th, 2023</p>
+            </div>
+          </div>
+          <div className="herobutton1">
+            <button className="Hero-section2-button3">
+              <Link to="/PostaJob">View all blog posts</Link>
+            </button>
+          </div>
+        </div>
+        {/* subscribe */}
+        <div
+          className="hero-subscribe"
+          style={{
+            backgroundImage: "url(./subscribeimg.svg)",
+            backgroundRepeat: "no-repeat",
+            marginBottom: "0px",
+            height: "410px",
+            backgroundSize: "cover",
+          }}
+        >
+          <h2 className="hero-subscribe1">Subscribe to our Newsletter</h2>
+          <p className="hero-subscribe2">
+            Never want to miss any job news? Join our email subcription
+          </p>
+          <div className="heroradiobutton">
+            <p>
+              <input type="radio" /> Job seeker
+              <span className="heroradiobuttonspan">
+                <input type="radio" /> Recruiter
+              </span>
+            </p>
+          </div>
+          <input
+            type="text"
+            placeholder="Email"
+            className="hero-subscribe-input"
+          ></input>
+          <button className="hero-subscribe-button">subscribe</button>
+        </div>
       </div>
     </div>
   );

@@ -6,6 +6,7 @@ import browse from "../../assets/images/hero/browse.jpg";
 import apply from "../../assets/images/hero/apply.jpg";
 import connected from "../../assets/images/hero/connected.png";
 import select from "../../assets/images/hero/select.png";
+import heromobile from "../../assets/images/hero/heroImage.png"
 
 const Hero = () => {
   return (
@@ -14,10 +15,13 @@ const Hero = () => {
         <div
           className="Hero-section1"
           style={{
-            backgroundImage: "url(./hero-image.png)",
+            // backgroundImage: "url(./hero-image.png)",
+            backgroundImage: `url(${heromobile})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
             height: "40rem",
+
+            objectFit: "cover",
           }}
         >
           <div className="hero1">
@@ -49,36 +53,36 @@ const Hero = () => {
           <h2 className="hero2header">Easy steps to get your dream job</h2>
           <div className="heropart2">
             {/* hero register */}
-            <div className="heroregister">
+            <div className="heroEasy">
               <img className="heroimg1" src="./hero1.svg" />
               <div className="heropart2text">
-                <h4>Register with us</h4>
+                <h4 className="heroregister">Register with us</h4>
                 <p className="heropart2text2">
                   It is totally free!!!<br></br>
-                  you only need to register by creating an account <br></br>
+                  you only need to register by creating an account 
                   and follwing the easy registration process.
                 </p>
               </div>
             </div>
             {/* hero browse */}
-            <div className="heroregister">
+            <div className="heroEasy">
               <img className="heroimg1" src="./hero2.svg" />
               <div className="heropart2text">
-                <h4>Broswe the best jobs for you</h4>
+                <h4 className="heroregister">Broswe the best jobs for you</h4>
                 <p className="heropart2text2">
-                  Find verified jobs based on job categories <br></br>
-                  and location that are most relevant<br></br>
+                  Find verified jobs based on job categories 
+                  and location that are most relevant
                   to you.
                 </p>
               </div>
             </div>
             {/* hero apply */}
-            <div>
+            <div className="heroEasy">
               <img className="heroimg1" src="./hero3.svg" />
               <div className="heropart2text">
-                <h4>Apply for job</h4>
+                <h4 className="heroregister">Apply for job</h4>
                 <p className="heropart2text2">
-                  Apply for your preferred job and schedule<br></br>
+                  Apply for your preferred job and schedule
                   your test to be taken within 48hours.
                 </p>
               </div>

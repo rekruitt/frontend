@@ -5,7 +5,7 @@
   width: 37rem;
   height: 18rem;
   margin-top: 14rem;
-  margin-left: 18rem;
+  margin-left: 6.25rem;
   position: absolute;
   padding: 2rem 2.5rem 2.5rem 3.5rem;
 }
@@ -62,26 +62,38 @@
 }
 /* hero part2 */
 .hero2a {
-  margin-top: 5rem;
+  margin: 5rem 6.25rem 5rem 6.25rem;
 }
 .hero2header {
   text-align: center;
 }
 .heropart2 {
   display: flex;
-  margin: 3rem;
-  justify-content: center;
+  margin-top: 2.5rem;
+  justify-content: space-between;
   text-align: center;
-  gap: 6rem;
+  gap: 3rem;
 }
-.heroregister {
-  padding-right: 5rem;
+
+.heroEasy{
+padding: 1.125rem 3.125rem 21.25rem 3.125rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 1.5rem;
 }
-.heropart2text {
-  padding-top: 1rem;
+.heroimg1{
+  width: 120px;
+  height: 120px;
+  /* padding: 1.125rem 3.125rem 2rem 3.125rem; */
 }
+
 .heropart2text2 {
   font-size: 1rem;
+  text-align: center;
+}
+.heroregister{
+padding-bottom: 0.625rem;
 }
 /* hero part3a */
 .hero-bg2 {
